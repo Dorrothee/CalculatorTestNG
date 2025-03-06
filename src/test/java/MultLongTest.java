@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test(groups = { "mult", "long" })
+@Test(groups = { "mult", "long", "arithmetic" })
 public class MultLongTest extends BaseTest {
 
     @DataProvider(name = "multLongData")

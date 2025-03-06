@@ -3,7 +3,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 //Failure because of the mistake in the Calculator.jar
-@Test(groups = "trigonometry")
+@Test(groups = { "cos", "trigonometry" })
 public class CosTest extends BaseTest {
 
     @DataProvider(name = "cosData")

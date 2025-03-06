@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-@Test(groups = { "div", "double" })
+@Test(groups = { "div", "double", "arithmetic" })
 public class DivDoubleTest extends BaseTest {
 
     @DataProvider(name = "divDoubleValidData")

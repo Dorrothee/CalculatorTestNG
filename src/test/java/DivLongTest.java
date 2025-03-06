@@ -3,7 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test(groups = {"div", "long"})
+@Test(groups = { "div", "long", "arithmetic" })
 public class DivLongTest extends BaseTest {
 
     @DataProvider(name = "divLongValidData")

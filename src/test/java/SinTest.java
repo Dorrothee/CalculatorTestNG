@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test(groups = "trigonometry")
+@Test(groups = { "sin", "trigonometry" })
 public class SinTest extends BaseTest {
 
     @DataProvider(name = "sinData")

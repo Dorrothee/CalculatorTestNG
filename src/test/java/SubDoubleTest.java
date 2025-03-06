@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test(groups = {"sub", "double"})
+@Test(groups = { "sub", "double", "arithmetic" })
 public class SubDoubleTest extends BaseTest {
 
     @DataProvider(name = "subDoubleData")

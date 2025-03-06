@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test(groups = "double")
+@Test(groups = { "sqrt", "double", "algebraic" })
 public class SqrtTest extends BaseTest {
 
     @DataProvider(name = "sqrtData")

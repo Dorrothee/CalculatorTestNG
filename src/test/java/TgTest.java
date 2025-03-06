@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test(groups = "trigonometry")
+@Test(groups = { "tg", "trigonometry" })
 public class TgTest extends BaseTest {
 
     @DataProvider(name = "tgData")

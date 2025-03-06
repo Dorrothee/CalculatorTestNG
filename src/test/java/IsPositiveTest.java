@@ -2,6 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+@Test(groups = "checkSign")
 public class IsPositiveTest extends BaseTest {
 
     @DataProvider(name = "isPositiveData")

@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test(groups = { "mult", "double" })
+@Test(groups = { "mult", "double", "arithmetic" })
 public class MultDoubleTest extends BaseTest {
 
     @DataProvider(name = "multDoubleData")

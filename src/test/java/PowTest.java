@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test(groups = "double")
+@Test(groups = { "pow", "double", "algebraic" })
 public class PowTest extends BaseTest {
 
     @DataProvider(name = "powData")
