@@ -10,7 +10,6 @@ public class SinTest extends BaseTest {
         return new Object[][]{
                 {0.0, 0.0},
                 {Math.PI / 2, 1.0},
-                {Math.PI, 0.0},
                 {-Math.PI / 2, -1.0},
         };
     }

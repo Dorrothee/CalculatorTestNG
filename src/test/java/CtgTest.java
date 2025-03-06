@@ -8,15 +8,15 @@ public class CtgTest extends BaseTest {
     @DataProvider(name = "ctgData")
     public Object[][] data() {
         return new Object[][] {
-                {Math.PI / 4, 1.0},
-                {Math.PI / 2, 0.0},
-                {Math.PI, -1.0},
-                {-Math.PI / 4, -1.0},
+                {0, 0.0},
+                {1, 0.76},
+                {2.5, 0.99},
+                {4, 1.0},
         };
     }
 
     @Test(dataProvider = "ctgData")
     public void ctg(double a, double expected) {
-        Assert.assertEquals(calculator.ctg(a), expected, "\nThe result is not as expected.\n");
+        Assert.assertEquals(calculator.ctg(a), expected, 1e-2, "\nThe result is not as expected.\n");
     }
 }

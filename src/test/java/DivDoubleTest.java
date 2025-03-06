@@ -17,7 +17,7 @@ public class DivDoubleTest extends BaseTest {
         };
     }
 
-    @DataProvider(name = "invalid")
+    @DataProvider(name = "divDoubleInvalidData")
     public static Object[][] divDoubleInvalidData() {
         return new Object[][] {
                 {77.0, 0.0},

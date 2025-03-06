@@ -15,7 +15,7 @@ public class MultLongTest extends BaseTest {
         };
     }
 
-    @Test(dataProvider = "longMultiplicationData")
+    @Test(dataProvider = "multLongData")
     public void multLong(long a, long b, long expected) {
         Assert.assertEquals(calculator.mult(a, b), expected, "\nThe result is not as expected.\n");
     }

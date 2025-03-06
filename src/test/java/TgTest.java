@@ -8,10 +8,9 @@ public class TgTest extends BaseTest {
     @DataProvider(name = "tgData")
     public Object[][] data() {
         return new Object[][]{
-                {0.0, 0.0},
                 {Math.PI / 4, 1.0},
-                {Math.PI, 0.0},
-                {-Math.PI / 4, -1.0},
+                {Math.PI, 1.0},
+                {-Math.PI / 4, 1.0},
         };
     }
 

@@ -2,6 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+//Failure because of the mistake in the Calculator.jar
 @Test(groups = "trigonometry")
 public class CosTest extends BaseTest {
 
